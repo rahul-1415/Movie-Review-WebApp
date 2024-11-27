@@ -1,0 +1,48 @@
+{
+  "engineName": "movies1",
+  "endpointBase": "https://my-deployment-ca95ac.ent.us-west1.gcp.cloud.es.io",
+  "searchKey": "search-x1ifj1n7dcg6yk8xkh7zibbc",
+  "resultFields": [
+    "imdb_id",
+    "year",
+    "director",
+    "rating_value",
+    "certificate",
+    "poster_url",
+    "runtime",
+    "rating_count",
+    "cast",
+    "name",
+    "genre",
+    "summary_text",
+    "id"
+  ],
+  "sortFields": [
+    "cast",
+    "certificate",
+    "director",
+    "genre",
+    "id",
+    "imdb_id",
+    "rating_count",
+    "rating_value",
+    "runtime",
+    "summary_text",
+    "year"
+  ],
+  "facets": [
+    "cast",
+    "certificate",
+    "director",
+    "genre",
+    "imdb_id",
+    "rating_count",
+    "rating_value",
+    "runtime",
+    "summary_text",
+    "year"
+  ],
+  "titleField": "name",
+  "urlField": "poster_url",
+  "thumbnailField": "poster_url"
+}
